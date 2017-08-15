@@ -1,5 +1,5 @@
 function find(collection) {
-    let median = 0;
+    var median = 0;
     collection = collection.sort((fir, las)=>{return fir - las});
     if ((collection.length % 2) === 0){
         median = (collection[collection.length/2-1] + collection[collection.length/2])/2;
